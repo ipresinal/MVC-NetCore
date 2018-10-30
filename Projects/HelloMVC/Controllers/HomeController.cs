@@ -17,7 +17,7 @@ namespace HelloMVC.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "This is my first ASP.NET Core web application!";
 
             return View();
         }
